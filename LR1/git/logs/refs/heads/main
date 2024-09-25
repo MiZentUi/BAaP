@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 976430a0a74b8e680e81a024c346988a6c3de7d6 MiZentUi <mizentui@gmail.com> 1725796420 +0300	commit (initial): first commit
+976430a0a74b8e680e81a024c346988a6c3de7d6 976430a0a74b8e680e81a024c346988a6c3de7d6 MiZentUi <mizentui@gmail.com> 1725796522 +0300	Branch: renamed refs/heads/master to refs/heads/main
+976430a0a74b8e680e81a024c346988a6c3de7d6 92c9717cdf37bcc0181ede7dbd72d26a629adaa6 MiZentUi <mizentui@gmail.com> 1725796677 +0300	commit: aligned the code
+92c9717cdf37bcc0181ede7dbd72d26a629adaa6 8de346199bebf5ba957838866c42e22a501c0fc3 MiZentUi <mizentui@gmail.com> 1725796732 +0300	commit: aligned the comments
+8de346199bebf5ba957838866c42e22a501c0fc3 59a8fb9848b3faff778ade3da0dfe007e9aa4865 MiZentUi <mizentui@gmail.com> 1725796776 +0300	commit: add iostream lib
+59a8fb9848b3faff778ade3da0dfe007e9aa4865 1567c4de36ea55a518071a5a13c2fc42970b4d17 MiZentUi <mizentui@gmail.com> 1725796820 +0300	commit: add cmath lib
+1567c4de36ea55a518071a5a13c2fc42970b4d17 2712e55b66b73795c1ae0742faf95687a8e88595 MiZentUi <mizentui@gmail.com> 1725796860 +0300	commit: change Double to double type
+2712e55b66b73795c1ae0742faf95687a8e88595 290618de2427593c1cbdf73a529e9a4d8e8fc223 MiZentUi <mizentui@gmail.com> 1725796908 +0300	commit: rotate << and >> operators
+290618de2427593c1cbdf73a529e9a4d8e8fc223 9eb5af98d47602277771b04fee4e9c5c690dd24a MiZentUi <mizentui@gmail.com> 1725796984 +0300	commit: remove return nullptr line
+9eb5af98d47602277771b04fee4e9c5c690dd24a ef8415603bfe422b427bc78787f26477f77bd826 MiZentUi <mizentui@gmail.com> 1725797934 +0300	commit: replace void to int in main and add return 0
+ef8415603bfe422b427bc78787f26477f77bd826 2b5b0157fa7d9e38b33732f77b086e9a375d7394 MiZentUi <mizentui@gmail.com> 1725807266 +0300	commit: remove useless touble variable
+2b5b0157fa7d9e38b33732f77b086e9a375d7394 ef8415603bfe422b427bc78787f26477f77bd826 MiZentUi <mizentui@gmail.com> 1725807624 +0300	reset: moving to HEAD~1
+ef8415603bfe422b427bc78787f26477f77bd826 12d90fb26eb7413150fb8b6f7320e361f8574420 MiZentUi <mizentui@gmail.com> 1725807712 +0300	commit: remove useless touble variable
+12d90fb26eb7413150fb8b6f7320e361f8574420 e98b0d7016d4c9f0e517ff32b158f587118b91de MiZentUi <mizentui@gmail.com> 1725809089 +0300	commit: change cmakelists
+e98b0d7016d4c9f0e517ff32b158f587118b91de 12d90fb26eb7413150fb8b6f7320e361f8574420 MiZentUi <mizentui@gmail.com> 1725810892 +0300	reset: moving to HEAD~1
+12d90fb26eb7413150fb8b6f7320e361f8574420 98209c2b5d1a00a74a620df1264033e3dc84df76 MiZentUi <mizentui@gmail.com> 1725811148 +0300	commit: cmake edit
+98209c2b5d1a00a74a620df1264033e3dc84df76 70ec6b51aa0e545fa46d3ca5a53d24fd9d681947 MiZentUi <mizentui@gmail.com> 1727246262 +0300	commit: add gtests
