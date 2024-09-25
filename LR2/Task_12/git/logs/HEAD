@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111008 +0300	commit (initial): first commit
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111032 +0300	checkout: moving from main to first
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111049 +0300	checkout: moving from first to main
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111059 +0300	checkout: moving from main to second
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111061 +0300	checkout: moving from second to main
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111068 +0300	checkout: moving from main to third
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727111074 +0300	checkout: moving from third to first
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 3b70163023a1ec6a0802792719af719361e6db08 MiZentUi <mizentui@gmail.com> 1727117666 +0300	commit: first
+3b70163023a1ec6a0802792719af719361e6db08 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727119887 +0300	reset: moving to HEAD~1
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 81eb2d7534548df7154d9b0bc704f9756dd2d99c MiZentUi <mizentui@gmail.com> 1727119903 +0300	commit: first
+81eb2d7534548df7154d9b0bc704f9756dd2d99c c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727119916 +0300	checkout: moving from first to second
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 81eb2d7534548df7154d9b0bc704f9756dd2d99c MiZentUi <mizentui@gmail.com> 1727120451 +0300	checkout: moving from second to first
+81eb2d7534548df7154d9b0bc704f9756dd2d99c 81eb2d7534548df7154d9b0bc704f9756dd2d99c MiZentUi <mizentui@gmail.com> 1727120467 +0300	checkout: moving from first to first
+81eb2d7534548df7154d9b0bc704f9756dd2d99c c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727120574 +0300	checkout: moving from first to second
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 04a4508bfbc63e7fd8d7ee03a2e5e897803037ae MiZentUi <mizentui@gmail.com> 1727128447 +0300	commit: second
+04a4508bfbc63e7fd8d7ee03a2e5e897803037ae c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727128472 +0300	checkout: moving from second to third
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 b49242385fb9424faa459e62304be2a6522a35f3 MiZentUi <mizentui@gmail.com> 1727139916 +0300	commit: third
+b49242385fb9424faa459e62304be2a6522a35f3 c2f59f5c7bea463831ecd8e97c3de4602fe8a181 MiZentUi <mizentui@gmail.com> 1727139943 +0300	checkout: moving from third to main
+c2f59f5c7bea463831ecd8e97c3de4602fe8a181 4fccc227c18db370bcc7f2057e230c16b52fc8ee MiZentUi <mizentui@gmail.com> 1727245123 +0300	commit: add main

@@ -1,0 +1,44 @@
+0000000000000000000000000000000000000000 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996036 +0300	commit (initial): first commit
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996097 +0300	checkout: moving from main to option_1
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996099 +0300	checkout: moving from option_1 to option_2
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996101 +0300	checkout: moving from option_2 to option_3
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996103 +0300	checkout: moving from option_3 to option_4
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996105 +0300	checkout: moving from option_4 to option_5
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996106 +0300	checkout: moving from option_5 to option_6
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996108 +0300	checkout: moving from option_6 to option_7
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996110 +0300	checkout: moving from option_7 to option_8
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996113 +0300	checkout: moving from option_8 to option_9
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996114 +0300	checkout: moving from option_9 to option_10
+75a97a7441d4d5dc117e911e6aa176879eed7965 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996152 +0300	checkout: moving from option_10 to option_1
+75a97a7441d4d5dc117e911e6aa176879eed7965 e4e02e2753e4695c278bfc897bc5ceca50982fef MiZentUi <mizentui@gmail.com> 1726996215 +0300	commit: option_1
+e4e02e2753e4695c278bfc897bc5ceca50982fef 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726996247 +0300	checkout: moving from option_1 to option_2
+75a97a7441d4d5dc117e911e6aa176879eed7965 0711272955b2799df417acfacc5e24726fbf39b9 MiZentUi <mizentui@gmail.com> 1726997174 +0300	commit: option_2
+0711272955b2799df417acfacc5e24726fbf39b9 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726997184 +0300	checkout: moving from option_2 to option_3
+75a97a7441d4d5dc117e911e6aa176879eed7965 7f5772823528228d19a0130ed23c3b352a1fb798 MiZentUi <mizentui@gmail.com> 1726997453 +0300	commit: option_3
+7f5772823528228d19a0130ed23c3b352a1fb798 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726997485 +0300	checkout: moving from option_3 to option_4
+75a97a7441d4d5dc117e911e6aa176879eed7965 ba528bb58352b872e64d7c5700a1ea7c8dcb0924 MiZentUi <mizentui@gmail.com> 1726997824 +0300	commit: option_4
+ba528bb58352b872e64d7c5700a1ea7c8dcb0924 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726997836 +0300	checkout: moving from option_4 to option_5
+75a97a7441d4d5dc117e911e6aa176879eed7965 bcbbe0c05f067f79886e54c001a3109f36c760df MiZentUi <mizentui@gmail.com> 1726998100 +0300	commit: option_5
+bcbbe0c05f067f79886e54c001a3109f36c760df 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726998117 +0300	checkout: moving from option_5 to option_6
+75a97a7441d4d5dc117e911e6aa176879eed7965 6cf3a0835467241f24cecc8595c308ab6f68724e MiZentUi <mizentui@gmail.com> 1726999591 +0300	commit: option_6
+6cf3a0835467241f24cecc8595c308ab6f68724e 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726999599 +0300	checkout: moving from option_6 to option_7
+75a97a7441d4d5dc117e911e6aa176879eed7965 f337ff7e9232b2f70d61ee7d252ee36e8d350197 MiZentUi <mizentui@gmail.com> 1726999964 +0300	commit: option_7
+f337ff7e9232b2f70d61ee7d252ee36e8d350197 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1726999983 +0300	checkout: moving from option_7 to option_8
+75a97a7441d4d5dc117e911e6aa176879eed7965 d2673609a504845ee9c005518a3b0e39f2b8daf6 MiZentUi <mizentui@gmail.com> 1727000181 +0300	commit: option_9
+d2673609a504845ee9c005518a3b0e39f2b8daf6 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1727000205 +0300	reset: moving to HEAD~1
+75a97a7441d4d5dc117e911e6aa176879eed7965 6b3877c0780c807f35e976874e03de86131ac22a MiZentUi <mizentui@gmail.com> 1727000214 +0300	commit: option_8
+6b3877c0780c807f35e976874e03de86131ac22a 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1727000225 +0300	checkout: moving from option_8 to option_9
+75a97a7441d4d5dc117e911e6aa176879eed7965 9aef17accacc6e7a55a9f4b8e3319867270458c4 MiZentUi <mizentui@gmail.com> 1727000405 +0300	commit: option_9
+9aef17accacc6e7a55a9f4b8e3319867270458c4 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1727000412 +0300	checkout: moving from option_9 to option_10
+75a97a7441d4d5dc117e911e6aa176879eed7965 ba859380ce70a9d35ef2f191764728c8a6257698 MiZentUi <mizentui@gmail.com> 1727000626 +0300	commit: option_10
+ba859380ce70a9d35ef2f191764728c8a6257698 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1727000634 +0300	checkout: moving from option_10 to main
+75a97a7441d4d5dc117e911e6aa176879eed7965 6cf3a0835467241f24cecc8595c308ab6f68724e MiZentUi <mizentui@gmail.com> 1727037910 +0300	checkout: moving from main to option_6
+6cf3a0835467241f24cecc8595c308ab6f68724e f337ff7e9232b2f70d61ee7d252ee36e8d350197 MiZentUi <mizentui@gmail.com> 1727038088 +0300	checkout: moving from option_6 to option_7
+f337ff7e9232b2f70d61ee7d252ee36e8d350197 6b3877c0780c807f35e976874e03de86131ac22a MiZentUi <mizentui@gmail.com> 1727038445 +0300	checkout: moving from option_7 to option_8
+6b3877c0780c807f35e976874e03de86131ac22a 9aef17accacc6e7a55a9f4b8e3319867270458c4 MiZentUi <mizentui@gmail.com> 1727038621 +0300	checkout: moving from option_8 to option_9
+9aef17accacc6e7a55a9f4b8e3319867270458c4 ba859380ce70a9d35ef2f191764728c8a6257698 MiZentUi <mizentui@gmail.com> 1727038731 +0300	checkout: moving from option_9 to option_10
+ba859380ce70a9d35ef2f191764728c8a6257698 0711272955b2799df417acfacc5e24726fbf39b9 MiZentUi <mizentui@gmail.com> 1727039060 +0300	checkout: moving from option_10 to option_2
+0711272955b2799df417acfacc5e24726fbf39b9 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1727159377 +0300	checkout: moving from option_2 to main
+75a97a7441d4d5dc117e911e6aa176879eed7965 e4e02e2753e4695c278bfc897bc5ceca50982fef MiZentUi <mizentui@gmail.com> 1727159399 +0300	checkout: moving from main to option_1
+e4e02e2753e4695c278bfc897bc5ceca50982fef 75a97a7441d4d5dc117e911e6aa176879eed7965 MiZentUi <mizentui@gmail.com> 1727159422 +0300	checkout: moving from option_1 to main
+75a97a7441d4d5dc117e911e6aa176879eed7965 e4e02e2753e4695c278bfc897bc5ceca50982fef MiZentUi <mizentui@gmail.com> 1727159428 +0300	merge option_1: Fast-forward

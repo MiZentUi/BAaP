@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 9806a057a39b1672f0ea4ff73355d0258876edc1 MiZentUi <mizentui@gmail.com> 1726995685 +0300	commit (initial): first commit
+9806a057a39b1672f0ea4ff73355d0258876edc1 9806a057a39b1672f0ea4ff73355d0258876edc1 MiZentUi <mizentui@gmail.com> 1726995743 +0300	checkout: moving from main to control
+9806a057a39b1672f0ea4ff73355d0258876edc1 9806a057a39b1672f0ea4ff73355d0258876edc1 MiZentUi <mizentui@gmail.com> 1726995749 +0300	checkout: moving from control to main
+9806a057a39b1672f0ea4ff73355d0258876edc1 bbebb0b8006b8e324b0bad08b013153198012d1c MiZentUi <mizentui@gmail.com> 1726995763 +0300	commit: with bool
+bbebb0b8006b8e324b0bad08b013153198012d1c 9806a057a39b1672f0ea4ff73355d0258876edc1 MiZentUi <mizentui@gmail.com> 1726995784 +0300	reset: moving to HEAD~1
+9806a057a39b1672f0ea4ff73355d0258876edc1 9b0c532807572178bef44a2b82af809b7a906253 MiZentUi <mizentui@gmail.com> 1726995815 +0300	commit: without bool
+9b0c532807572178bef44a2b82af809b7a906253 4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 MiZentUi <mizentui@gmail.com> 1726995827 +0300	commit: with bool
+4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 9806a057a39b1672f0ea4ff73355d0258876edc1 MiZentUi <mizentui@gmail.com> 1726995849 +0300	checkout: moving from main to control
+9806a057a39b1672f0ea4ff73355d0258876edc1 e096947ed8548bd7101015fc36e817c2ccb415d4 MiZentUi <mizentui@gmail.com> 1726995899 +0300	commit: without bool
+e096947ed8548bd7101015fc36e817c2ccb415d4 59b8922455ab3cd266aaeb00487568adcb93695c MiZentUi <mizentui@gmail.com> 1726995930 +0300	commit: with bool
+59b8922455ab3cd266aaeb00487568adcb93695c 4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 MiZentUi <mizentui@gmail.com> 1727029295 +0300	checkout: moving from control to main
+4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 9b0c532807572178bef44a2b82af809b7a906253 MiZentUi <mizentui@gmail.com> 1727029338 +0300	checkout: moving from main to 9b0c5328
+9b0c532807572178bef44a2b82af809b7a906253 4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 MiZentUi <mizentui@gmail.com> 1727029369 +0300	checkout: moving from 9b0c532807572178bef44a2b82af809b7a906253 to main
+4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 59b8922455ab3cd266aaeb00487568adcb93695c MiZentUi <mizentui@gmail.com> 1727159303 +0300	checkout: moving from main to control
+59b8922455ab3cd266aaeb00487568adcb93695c 4b48b363a5c9ed2fce8f0157ed1a357aa6adbaf7 MiZentUi <mizentui@gmail.com> 1727159311 +0300	checkout: moving from control to main
