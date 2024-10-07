@@ -13,7 +13,7 @@ void calculate()
     std::cout << "Write x: ";
     std::cin >> s;
     std::cin.ignore();
-    double x;
+    long double x;
     if (s == "exit" || s == "quit" || s == "q") return;
     bool isdigit = true;
     for (char c : s) 
@@ -27,8 +27,9 @@ void calculate()
         std::cout << ASCII_COLOR_RED"[*] \"" << s << "\" not a number!" ASCII_RESET << std::endl;
         return;
     }
-    double a = std::sin(x), b = std::cos(x), c = std::ln(abs(x));
-    double min = a < b ? (a < c ? a : c) : (b < c ? b : c);
+    long double a = std::sin(x), b = std::cos(x), c = x >= 0 ? std::ln(x) : std::ln(-x);
+    long double min = a < b ? (a < c ? a : c) : (b < c ? b : c);
+    std::cout << a << " " << b << " " << c << std::endl;
     std::cout << ASCII_COLOR_GREEN"[*] Result: " << min << ASCII_RESET << std::endl;
 }
 

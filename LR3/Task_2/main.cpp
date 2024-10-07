@@ -16,8 +16,8 @@ void calculate()
         d = 1 / std::pow(2.0, i) + 1 / std::pow(3.0, i);
         sum += d;
         i++;
-    } while (d >= 0.001);
-    std::cout << ASCII_COLOR_GREEN"[*] Result: " << sum << ASCII_RESET << std::endl;
+    } while (d >= 0.000000001);
+    std::cout << ASCII_COLOR_GREEN"[*] Result: " << std::fixed << sum << ASCII_RESET << std::endl;
 }
 
 void help()

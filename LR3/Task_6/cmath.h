@@ -1,5 +1,7 @@
 #define M_PI 3.14159265359
 
+#include <limits>
+
 namespace std
 {
     double sqrt(double x)
@@ -13,9 +15,9 @@ namespace std
         return middle;
     }
 
-    double pow(double x, int n)
+    long double pow(long double x, int n)
     {
-        double r = 1;
+        long double r = 1;
         for (int i = 0; i < n; i++)
             r *= x;
         return r;
@@ -29,17 +31,28 @@ namespace std
             return x * factorial(x - 1);
     }
 
-    double sin(double x)
+    long double sin(long double x)
     {
-        double result = 0;
-        for (int n = 0; n < 1000; n++)
-            result += pow(-1, n) * pow(x, 2 * n + 1) / factorial(2 * n + 1);
+        long double result = 0;
+        for (int n = 1; n < 1000; n++)
+        {
+            long double d = pow(-1, n) * pow(x, 2 * n + 1) / factorial(2 * n + 1);
+            if (result + d > __DBL_MAX__) break;
+            result += d;
+        }
         return result;
     }
 
-    double cos(double x)
+    long double cos(long double x)
     {
-        return sqrt(1 - std::pow(sin(x), 2));
+        long double result = 0;
+        for (int n = 1; n < 1000; n++)
+        {
+            long double d = pow(-1, n) * pow(x, 2 * n) / factorial(2 * n);
+            if (result + d > __DBL_MAX__) break;
+            result += d;
+        }
+        return result;
     }
 
     double acos(double x)
@@ -59,7 +72,11 @@ namespace std
     {
         long double result = 0;
         for (int n = 1; n <= 1000; n++)
-            result += pow(-1, n - 1) * pow(x - 1, n) / n;
+        {
+            long double d = pow(-1, n - 1) * pow(x - 1, n) / n;
+            if (result + d > __DBL_MAX__) break;
+            result += d;
+        }
         return result;
     }
 }
