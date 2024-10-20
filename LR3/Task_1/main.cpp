@@ -17,7 +17,7 @@ void calculate()
         sum += (a - b) * (a - b);
         i++;
     }
-    std::cout << ASCII_COLOR_GREEN"[*] Result: " << sum << ASCII_RESET << std::endl;
+    std::cout << ASCII_COLOR_GREEN"[*] Result: " ASCII_RESET << sum << std::endl;
 }
 
 void help()
