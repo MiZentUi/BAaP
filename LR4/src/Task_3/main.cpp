@@ -79,6 +79,8 @@ void calculate()
     }
     long double result[2];
     get_shaded_matrix_values(a, n, result);
+    for (long long i = 0; i < n; i++)
+        delete[] a[i];
     delete[] a;
     a = nullptr;
     std::cout << ASCII_COLOR_GREEN"[*] Result: " << std::endl << "\tSum: " << result[0] << "\tProduct: " << result[1] << ASCII_RESET << std::endl;
