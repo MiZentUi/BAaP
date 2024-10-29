@@ -115,7 +115,7 @@ void help()
 
 int main(int argc, char const *argv[])
 {
-    printf(ASCII_COLOR_YELLOW"\n\tWelcome to Task 3 Option 13!\n\n\tBy Skrobot Denis\n\n\tThis program determine the diagonal with the largest the sum of numbers\n\n");
+    printf(ASCII_COLOR_YELLOW"\n\tWelcome to Task 4!\n\n\tBy Skrobot Denis\n\n\tThis program determine the diagonal with the largest the sum of numbers\n\n");
     printf("[*] Write \"calc\" for calculate, write \"help\" for more info\n\n" ASCII_RESET);
     while (true)
     {

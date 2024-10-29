@@ -9,7 +9,7 @@
 #define ASCII_COLOR_GREEN "\e[0;32m" 
 #define ASCII_COLOR_YELLOW "\e[0;33m" 
 
-bool get_unsigned(char *prompt, unsigned *n)
+bool get_unsigned_long(char *prompt, unsigned long *n)
 {
     char s[1024];
     printf("%s", prompt);
@@ -24,7 +24,7 @@ bool get_unsigned(char *prompt, unsigned *n)
     }
     if (isdigit && ('0' <= s[0] && s[0] <= '9' || s[0] == '-') && '0' <= s[strlen(s) - 1] && s[strlen(s) - 1] <= '9')
     {
-        *n = (unsigned)atoll(s);
+        *n = (unsigned long)atoll(s);
         return true;
     }
     else
@@ -36,12 +36,12 @@ bool get_unsigned(char *prompt, unsigned *n)
 
 void calculate()
 {
-    unsigned i, j, n;
-    if (!get_unsigned("Write n: ", &n)) return;
-    unsigned **a = (unsigned **)malloc(n * sizeof(unsigned *));
+    unsigned long i, j, n;
+    if (!get_unsigned_long("Write n: ", &n)) return;
+    unsigned long **a = (unsigned long **)malloc(n * sizeof(unsigned long *));
     for (i = 0; i < n; i++)
-        a[i] = (unsigned *)malloc(n * sizeof(unsigned));
-    printf("[*] Size: %u\n", n);
+        a[i] = (unsigned long *)malloc(n * sizeof(unsigned long));
+    printf("[*] Size: %lu\n", n);
     if (!get_magical_square(a, n))
         printf(ASCII_COLOR_GREEN"\n[*] Result: \n\n" ASCII_COLOR_RED "\tMagic square does not exist!\n");
     else
@@ -50,7 +50,7 @@ void calculate()
         for (i = 0; i < n; i++)
         {
             for (j = 0; j < n; j++)
-                printf("\t%u ", a[i][j]);
+                printf("\t%lu ", a[i][j]);
             printf("\n");
         }
     }
@@ -70,7 +70,7 @@ void help()
 
 int main(int argc, char const *argv[])
 {
-    printf(ASCII_COLOR_YELLOW"\n\tWelcome to Task 3 Option 13!\n\n\tBy Skrobot Denis\n\n\tThis program determine the diagonal with the largest the sum of numbers\n\n");
+    printf(ASCII_COLOR_YELLOW"\n\tWelcome to Task 6!\n\n\tBy Skrobot Denis\n\n\tThis program builds a magic square\n\n");
     printf("[*] Write \"calc\" for calculate, write \"help\" for more info\n\n" ASCII_RESET);
     while (true)
     {

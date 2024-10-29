@@ -90,15 +90,15 @@ void minesweeper(char **a, long long n, long long m)
     }
 }
 
-void get_odd_magic_square(unsigned **a, unsigned n)
+void get_odd_magic_square(unsigned long **a, unsigned long n)
 {
-    unsigned i, j, n_square = n * n;
+    unsigned long i, j, n_square = n * n;
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
             a[i][j] = 0;
     i = n / 2, j = n - 1;
     a[i][j] = 1;
-    for (unsigned counter = 2; counter <= n_square; counter++)
+    for (unsigned long counter = 2; counter <= n_square; counter++)
     {
         if (a[(i - 1 + n) % n][(j + 1) % n] == 0)
         {
@@ -112,10 +112,11 @@ void get_odd_magic_square(unsigned **a, unsigned n)
         a[i][j] = counter;
     }
 }
-void get_double_even_magic_square(unsigned **a, unsigned n)
+
+void get_double_even_magic_square(unsigned long **a, unsigned long n)
 {
-    unsigned i, j, n_half_half = n / 4;
-    unsigned n_3_half_half = 3 * n_half_half;
+    unsigned long i, j, n_half_half = n / 4;
+    unsigned long n_3_half_half = 3 * n_half_half;
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
             a[i][j] = (n * i) + j + 1;
@@ -135,15 +136,16 @@ void get_double_even_magic_square(unsigned **a, unsigned n)
         for (j = n_half_half; j < n_3_half_half; j++)
             a[i][j] = (n * n + 1) - a[i][j];
 }
-void get_single_even_magic_square(unsigned **a, unsigned n)
+
+void get_single_even_magic_square(unsigned long **a, unsigned long n)
 {
-    unsigned size = n * n, n_half = n / 2, i, j;
-    unsigned sub_magic_square_size = size / 4;
-    unsigned **sub_magic_square = (unsigned **)malloc(n * sizeof(unsigned *));
+    unsigned long size = n * n, n_half = n / 2, i, j;
+    unsigned long sub_magic_square_size = size / 4;
+    unsigned long **sub_magic_square = (unsigned long **)malloc(n * sizeof(unsigned long *));
     for (i = 0; i < n; i++)
-        sub_magic_square[i] = (unsigned *)malloc(n * sizeof(unsigned));
+        sub_magic_square[i] = (unsigned long *)malloc(n * sizeof(unsigned long));
     get_odd_magic_square(sub_magic_square, n_half);
-    unsigned square_factors[] = {0, 2, 3, 1};
+    unsigned long square_factors[] = {0, 2, 3, 1};
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
         {
@@ -154,20 +156,21 @@ void get_single_even_magic_square(unsigned **a, unsigned n)
         free(sub_magic_square[i]);
     free(sub_magic_square);
     sub_magic_square = NULL;
-    unsigned j_left = n_half / 2;
-    unsigned j_right = j_left - 1;
+    unsigned long j_left = n_half / 2;
+    unsigned long j_right = j_left - 1;
     for (i = 0; i < n_half; i++)
         for (j = 0; j < n; j++)
             if (j < j_left || j >= n - j_right || (j == j_left && i == j_left))
             {
                 if (j == 0 && i == j_left)
                     continue;
-                unsigned temp = a[i][j];
+                unsigned long temp = a[i][j];
                 a[i][j] = a[i + n_half][j];
                 a[i + n_half][j] = temp;
             }
 }
-bool get_magical_square(unsigned **a, unsigned n)
+
+bool get_magical_square(unsigned long **a, unsigned long n)
 {
     if (n % 2)
         get_odd_magic_square(a, n);

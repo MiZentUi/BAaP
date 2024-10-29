@@ -117,7 +117,7 @@ void help()
 
 int main(int argc, char const *argv[])
 {
-    printf(ASCII_COLOR_YELLOW"\n\tWelcome to Task 3 Option 13!\n\n\tBy Skrobot Denis\n\n\tThis is MINESWEEPER!\n\n");
+    printf(ASCII_COLOR_YELLOW"\n\tWelcome to Task 5!\n\n\tBy Skrobot Denis\n\n\tThis is MINESWEEPER!\n\n");
     printf("[*] Write \"calc\" for calculate, write \"help\" for more info\n\n" ASCII_RESET);
     while (true)
     {

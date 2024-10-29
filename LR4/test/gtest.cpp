@@ -214,12 +214,12 @@ TEST(Task_5, test_3)
 
 TEST(Task_6, test_1)
 {
-    unsigned i, j, n = 1;
-    unsigned **a = (unsigned **)malloc(n * sizeof(unsigned *));
+    unsigned long i, j, n = 1;
+    unsigned long **a = (unsigned long **)malloc(n * sizeof(unsigned long *));
     for (i = 0; i < n; i++)
-        a[i] = (unsigned *)malloc(n * sizeof(unsigned));
+        a[i] = (unsigned long *)malloc(n * sizeof(unsigned long));
     get_magical_square(a, n);
-    unsigned b[n][n] = {{1}};
+    unsigned long b[n][n] = {{1}};
     bool equal = true;
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
@@ -230,21 +230,21 @@ TEST(Task_6, test_1)
 
 TEST(Task_6, test_2)
 {
-    unsigned i, j, n = 2;
-    unsigned **a = (unsigned **)malloc(n * sizeof(unsigned *));
+    unsigned long i, j, n = 2;
+    unsigned long **a = (unsigned long **)malloc(n * sizeof(unsigned long *));
     for (i = 0; i < n; i++)
-        a[i] = (unsigned *)malloc(n * sizeof(unsigned));
+        a[i] = (unsigned long *)malloc(n * sizeof(unsigned long));
     ASSERT_FALSE(get_magical_square(a, n));
 }
 
 TEST(Task_6, test_3)
 {
-    unsigned i, j, n = 3;
-    unsigned **a = (unsigned **)malloc(n * sizeof(unsigned *));
+    unsigned long i, j, n = 3;
+    unsigned long **a = (unsigned long **)malloc(n * sizeof(unsigned long *));
     for (i = 0; i < n; i++)
-        a[i] = (unsigned *)malloc(n * sizeof(unsigned));
+        a[i] = (unsigned long *)malloc(n * sizeof(unsigned long));
     get_magical_square(a, n);
-    unsigned b[n][n] = {
+    unsigned long b[n][n] = {
         {2, 7, 6},
         {9, 5, 1},
         {4, 3, 8}
