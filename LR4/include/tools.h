@@ -141,21 +141,14 @@ void get_single_even_magic_square(unsigned long **a, unsigned long n)
 {
     unsigned long size = n * n, n_half = n / 2, i, j;
     unsigned long sub_magic_square_size = size / 4;
-    unsigned long **sub_magic_square = (unsigned long **)malloc(n * sizeof(unsigned long *));
-    for (i = 0; i < n; i++)
-        sub_magic_square[i] = (unsigned long *)malloc(n * sizeof(unsigned long));
-    get_odd_magic_square(sub_magic_square, n_half);
+    get_odd_magic_square(a, n_half);
     unsigned long square_factors[] = {0, 2, 3, 1};
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
         {
-            a[i][j] = sub_magic_square[i % n_half][j % n_half];
+            a[i][j] = a[i % n_half][j % n_half];
             a[i][j] += square_factors[(i / n_half) * 2 + (j / n_half)] * sub_magic_square_size;
         }
-    for (i = 0; i < n; i++)
-        free(sub_magic_square[i]);
-    free(sub_magic_square);
-    sub_magic_square = NULL;
     unsigned long j_left = n_half / 2;
     unsigned long j_right = j_left - 1;
     for (i = 0; i < n_half; i++)
