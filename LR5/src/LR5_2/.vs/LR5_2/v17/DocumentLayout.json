@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5803C14A-5C25-4099-BA8D-7320581959AA}|LR5_2.vcxproj|C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5803C14A-5C25-4099-BA8D-7320581959AA}|LR5_2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD514A62-A9C8-49E9-9989-67F6B07A4433}|..\\LR5_DynamicLib\\LR5_DynamicLib.vcxproj|C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_DynamicLib\\libdynamic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD514A62-A9C8-49E9-9989-67F6B07A4433}|..\\LR5_DynamicLib\\LR5_DynamicLib.vcxproj|C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_DynamicLib\\libdynamic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "libdynamic.cpp",
+              "DocumentMoniker": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_DynamicLib\\libdynamic.cpp",
+              "RelativeDocumentMoniker": "..\\LR5_DynamicLib\\libdynamic.cpp",
+              "ToolTip": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_DynamicLib\\libdynamic.cpp",
+              "RelativeToolTip": "..\\LR5_DynamicLib\\libdynamic.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T18:06:01.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "libdynamic.h",
+              "DocumentMoniker": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_DynamicLib\\libdynamic.h",
+              "RelativeDocumentMoniker": "..\\LR5_DynamicLib\\libdynamic.h",
+              "ToolTip": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_DynamicLib\\libdynamic.h",
+              "RelativeToolTip": "..\\LR5_DynamicLib\\libdynamic.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T18:05:21.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_2\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\MiZentUi\\Desktop\\LR5\\src\\LR5_2\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T17:28:41.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
