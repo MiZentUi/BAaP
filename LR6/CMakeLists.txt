@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(LR5)
+project(LR6)
 
 set(CMAKE_CXX_CPPCHECK "cppcheck")
 set(CMAKE_CXX_CLANG_TIDY "clang-tidy" "-checks=some-check")
