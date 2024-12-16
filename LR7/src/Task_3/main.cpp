@@ -3,17 +3,17 @@
 
 #include "tools.h"
 
-int main()
+int main() // O(n)
 {
     int base = 0;
     std::string str1;
     std::string str2;
-    while (base < 2)
+    std::cout << "Base: \t\t";
+    std::cin >> base;
+    if (base < 2)
     {
-        std::cout << "Base: \t\t";
-        std::cin >> base;
-        if (base < 2)
-            std::cout << "Wrong base!" << std::endl;
+        std::cout << "Wrong base!" << std::endl;
+        return 0;
     }
     std::cout << "First number: \t";
     std::cin >> str1;

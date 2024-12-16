@@ -5,7 +5,7 @@
 #include <cstdlib>
 #include <cstring>
 
-unsigned short * string_to_array(const std::string str)
+unsigned short * string_to_array(const std::string str) // O(n)
 {
     size_t s_size = str.size(); 
     auto *array = new unsigned short[s_size];
@@ -16,7 +16,7 @@ unsigned short * string_to_array(const std::string str)
     return array;
 }
 
-void twos_to_trivial(unsigned short *array, size_t size)
+void twos_to_trivial(unsigned short *array, size_t size) // O(n)
 {
     if (size > 0 && array[0] == 1)
     {
@@ -32,7 +32,7 @@ void twos_to_trivial(unsigned short *array, size_t size)
                 break;
             }
         }
-        for (size_t i = 1; i < size; i++) // O(n)
+        for (size_t i = 1; i < size; i++)
         {
             array[i] ^= 1; 
         }
@@ -48,7 +48,7 @@ long long bin_len(long long n)
     return (long long)std::floor(std::log2(n)) + 1;
 }
 
-void bin_add(unsigned short *&a_array, size_t a_size, unsigned short *&b_array, size_t b_size, unsigned short *&c_array, size_t &c_size)
+void bin_add(unsigned short *&a_array, size_t a_size, unsigned short *&b_array, size_t b_size, unsigned short *&c_array, size_t &c_size) // O(n)
 {
     unsigned short add = 0;
     c_size = std::max(a_size, b_size) + 1;
@@ -63,7 +63,7 @@ void bin_add(unsigned short *&a_array, size_t a_size, unsigned short *&b_array, 
     }
 }
 
-void trivial_to_twos(unsigned short *&array, size_t &size)
+void trivial_to_twos(unsigned short *&array, size_t &size) // O(n)
 {
     if (size > 0 && array[0] == 1)
     {
@@ -82,7 +82,7 @@ void trivial_to_twos(unsigned short *&array, size_t &size)
     }
 }
 
-void dec_to_bin(long long n, unsigned short *&array, size_t &size)
+void dec_to_bin(long long n, unsigned short *&array, size_t &size) // O(n)
 {
     long long temp = std::abs(n);
     size = bin_len(temp) + 1;
@@ -98,7 +98,7 @@ void dec_to_bin(long long n, unsigned short *&array, size_t &size)
     }
 }
 
-long long bin_to_dec(const unsigned short *array, size_t size)
+long long bin_to_dec(const unsigned short *array, size_t size) // O(n)
 {
     long long num = 0;
     for (int i = 0; i < size - 1; i++)
@@ -109,7 +109,7 @@ long long bin_to_dec(const unsigned short *array, size_t size)
     return num;
 }
 
-char to_notation_symbol(int num)//2
+char to_notation_symbol(int num)
 {
     if (num > 9)
         return (char)(num + 'A' - 10);
@@ -123,7 +123,7 @@ int from_notation_symbol(char symbol)
     return symbol - '0';
 }
 
-std::string string_notation_addition(std::string str1, std::string str2, int base)
+std::string string_notation_addition(std::string str1, std::string str2, int base) // O(n)
 {
     std::string result;
     int add = 0;
@@ -140,7 +140,7 @@ std::string string_notation_addition(std::string str1, std::string str2, int bas
     return result;
 }
 
-std::string string_notation_substract(std::string str1, std::string str2, int base)
+std::string string_notation_substract(std::string str1, std::string str2, int base) // O(n)
 {
     std::string result;
     int substract = 0;
@@ -175,7 +175,7 @@ bool is_divide(long long num, long long divider) // O(log(n))
 {
     long long magic_num = (divider + 1) >> 1;
     if (num < 0)
-        num = ~num;
+        num = ~num + 1;
     while (num > divider)
     {
         if ((bool)(num & 1))

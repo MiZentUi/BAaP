@@ -3,7 +3,7 @@
 
 #include "tools.h"
 
-int main()
+int main() // O(n)
 {
     std::string str;
     std::cout << "Binary in two's conversation: \t";

@@ -42,7 +42,7 @@ int get_one_barrel(int *array, int size, int slaves_count, int poisoned_barrel) 
     memset(buffer_indexes, 0, slaves_count * sizeof(int));
     for (int i = 0; i < size; i++)
     {
-        int temp = i + 1;
+        int temp = i;
         for (int j = 0; j < slaves_count && temp != 0; j++)
         {
             if (temp % 2 == 1)

@@ -3,7 +3,7 @@
 
 #include "tools.h"
 
-int main()
+int main() // O(n)
 {
     long long a_num = 0;
     long long b_num = 0;
