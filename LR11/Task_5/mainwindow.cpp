@@ -27,8 +27,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->treeView->header()->setMinimumSectionSize(100);
     ui->treeView->header()->setSectionResizeMode(0, QHeaderView::Stretch);
 
-    long long dirsCount = 0;
-    long long filesCount = 0;
+    const long long dirsCount = 0;
+    const long long filesCount = 0;
     dirsAndFilesCount(QDir::homePath(), dirsCount, filesCount);
     ui->dirTextLabel->setText(QString::number(dirsCount));
     ui->filesTextLabel->setText(QString::number(filesCount));
